@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Note counter={3} word={"Component"} />
-        <Note counter={2} word={"hoge"} />
-        <Note counter={3} word={"Component"} />
+        <Note  word={"Component"} />
+        <Note  word={"hoge"} />
+        <Note  word={"Component"} />
       </header>
     </div>
   );
