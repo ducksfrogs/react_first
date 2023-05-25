@@ -1,16 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-import Note from './Note';
+import { useState } from 'react';
 
-function App() {
+function Square(){
+  const [value, setValue] = useState(null);
+  function handleClick(){
+    setValue('X');
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <Note />
-        <Note />
-      </header>
-    </div>
-  );
-}
+      <button 
+        className="square"
+        onClick={handleClick}
+      >
+        {value}
+      </button>
+    ); 
+};
 
-export default App;
+export default function Board() {
+
+  return (
+    <>
+    <div className="board-row">
+      <Square />
+      <Square />
+      <Square />
+    </div>
+    <div className="board-row">
+      <Square />
+      <Square />
+      <Square />
+    </div>
+    <div className="board-row">
+      <Square />
+      <Square />
+      <Square />
+    </div>
+    </>
+    );
+}
