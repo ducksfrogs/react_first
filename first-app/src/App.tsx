@@ -1,5 +1,5 @@
 import './App.css';
-import Note from './Note';
+import Note from './NewNote';
 
 function App() {
   return (
