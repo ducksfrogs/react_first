@@ -4,14 +4,16 @@ import './index.css';
 // import App from './App';
 // import Gallery from './Gallery.js';
 // import TodoList  from './AroundJSX.js';
-import TodoList from './CurlyBrace.js';
+// import TodoList from './CurlyBrace.js';
+import Profile from './PassProps';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <TodoList />
+    {/* <TodoList /> */}
+    <Profile />
   </React.StrictMode>
 );
 
