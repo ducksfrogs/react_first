@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import Gallery from './Cus';
+// import Gallery from './Cus';
+import Form from './Hello';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Gallery />
+    {/* <Gallery /> */}
+    <Form />
   </React.StrictMode>
 );
 
