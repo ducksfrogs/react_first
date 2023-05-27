@@ -1,11 +1,10 @@
 import './ExpenseItem.css';
-    
+
 function ExpenseItem(props) {
 
     return(
-    
         <div className="momon">
-            <div>{props.date}</div>
+            <div>{props.date.toISOString()}</div>
             <div>
                 <h2>{props.title}</h2>
                 <div>{props.amount}</div>
