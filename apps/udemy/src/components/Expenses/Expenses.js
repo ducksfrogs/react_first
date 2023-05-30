@@ -13,5 +13,4 @@ function Expenses(props) {
       </Card>
     );
 }
-
 export default Expenses;
